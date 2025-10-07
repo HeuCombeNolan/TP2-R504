@@ -7,3 +7,15 @@ def affiche(*args):
         n1, n2 = args
     else:
         raise ValueError("Trop d'arguments")
+
+    resultat = ""
+    for i in range(n1, n2 + 1):
+        if i % 15 == 0:
+            resultat += "FrisBee"
+        elif i % 3 == 0:
+            resultat += "Fizz"
+        elif i % 5 == 0:
+            resultat += "Buzz"
+        else:
+            resultat += str(i)
+    return resultat

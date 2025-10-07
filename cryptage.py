@@ -1,6 +1,5 @@
 import string
 
-# Table ASCII personnalisée
 caracteres = string.ascii_letters + string.punctuation + string.digits + " "
 
 def crypt(message, pas=1):

@@ -13,7 +13,6 @@ def crypt(message, pas=1):
     return resultat + str(pas)
 
 def decrypt(message):
-    # Le pas est toujours le dernier caractere
     pas = int(message[-1])
     message = message[:-1]
     resultat = ""

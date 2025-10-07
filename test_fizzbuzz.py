@@ -12,3 +12,7 @@ class TestFizzBuzz(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+print(affiche())
+print(affiche(15))
+print(affiche(5, 10))

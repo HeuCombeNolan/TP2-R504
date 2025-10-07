@@ -1,10 +1,14 @@
+
 from fizzbuzz import affiche
 
-# Test sans argument
+print("=== Test 1 : sans paramètre ===")
 print(affiche())
+print("-" * 50)
 
-# Test avec un seul parametre
+print("=== Test 2 : avec un seul paramètre (15) ===")
 print(affiche(15))
+print("-" * 50)
 
-# Test avec deux parametres
+print("=== Test 3 : avec deux paramètres (5, 10) ===")
 print(affiche(5, 10))
+print("-" * 50)
